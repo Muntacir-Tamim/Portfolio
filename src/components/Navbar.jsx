@@ -48,11 +48,11 @@ export default function Navbar() {
             className="flex items-center gap-3 group text-white decoration-none"
           >
             <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-600 to-cyan-400 flex items-center justify-center font-bold text-black text-lg shadow-md shadow-cyan-500/20 group-hover:scale-105 transition-transform">
-              FP
+              MT
             </div>
             <div className="flex flex-col">
               <span className="font-bold text-sm tracking-wide text-white group-hover:text-cyan-400 transition-colors">
-                MD FAHIM PRODHAN
+                MUNTACIR TAMIM
               </span>
               <span className="text-[11px] text-zinc-400 flex items-center gap-1.5">
                 <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
@@ -112,7 +112,11 @@ export default function Navbar() {
               className="p-2 text-zinc-300 hover:text-white rounded-lg bg-white/5 border border-white/10"
               aria-label="Toggle menu"
             >
-              {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+              {mobileMenuOpen ? (
+                <X className="w-6 h-6" />
+              ) : (
+                <Menu className="w-6 h-6" />
+              )}
             </button>
           </div>
         </div>

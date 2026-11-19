@@ -33,7 +33,10 @@ export default function ContactSection() {
   };
 
   return (
-    <section id="contact" className="py-24 bg-black relative border-t border-white/5">
+    <section
+      id="contact"
+      className="py-24 bg-black relative border-t border-white/5"
+    >
       {/* Background glow */}
       <div className="absolute bottom-10 left-1/2 -translate-x-1/2 w-3/4 h-72 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none" />
 
@@ -45,10 +48,14 @@ export default function ContactSection() {
             Get In Touch
           </div>
           <h2 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">
-            Let's Build Something <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-teal-300">Extraordinary</span>
+            Let's Build Something{" "}
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-teal-300">
+              Extraordinary
+            </span>
           </h2>
           <p className="mt-4 text-base sm:text-lg text-zinc-400">
-            Have a SaaS idea, an interactive web project, or looking for a full-stack engineer? Feel free to reach out.
+            Have a SaaS idea, an interactive web project, or looking for a
+            full-stack engineer? Feel free to reach out.
           </p>
         </div>
 
@@ -67,7 +74,9 @@ export default function ContactSection() {
                 Open for SaaS & Full-Stack Opportunities
               </h3>
               <p className="text-sm text-zinc-400 mt-2 leading-relaxed">
-                Whether you need technical consulting, multi-tenant SaaS architecture, or a production React app, I respond within 24 hours.
+                Whether you need technical consulting, multi-tenant SaaS
+                architecture, or a production React app, I respond within 24
+                hours.
               </p>
             </div>
 
@@ -164,7 +173,10 @@ export default function ContactSection() {
                     Message Sent Successfully!
                   </h3>
                   <p className="text-sm text-zinc-300 max-w-md mx-auto">
-                    Thank you for reaching out. Fahim has received your inquiry and will reply to <span className="text-cyan-300 font-semibold">{email}</span> as soon as possible.
+                    Thank you for reaching out. Fahim has received your inquiry
+                    and will reply to{" "}
+                    <span className="text-cyan-300 font-semibold">{email}</span>{" "}
+                    as soon as possible.
                   </p>
                   <button
                     onClick={() => setSubmitted(false)}
@@ -254,7 +266,7 @@ export default function ContactSection() {
                     ) : (
                       <>
                         <Send className="w-4 h-4" />
-                        <span>Send Message to Fahim</span>
+                        <span>Send Message to MUNTACIR</span>
                       </>
                     )}
                   </button>

@@ -25,14 +25,16 @@ export default function Footer() {
           <div className="flex flex-col items-center md:items-start text-center md:text-left">
             <div className="flex items-center gap-3">
               <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-cyan-600 to-cyan-400 flex items-center justify-center font-bold text-black text-base">
-                FP
+                MT
               </div>
               <span className="text-xl font-bold tracking-tight text-white">
-                MD FAHIM PRODHAN
+                MUNTACIR TAMIM
               </span>
             </div>
             <p className="text-xs text-zinc-400 mt-2 max-w-sm">
-              Full Stack Developer & Software Engineer. Engineering high-performance web applications, scalable SaaS platforms & interactive user experiences.
+              Full Stack Developer & Software Engineer. Engineering
+              high-performance web applications, scalable SaaS platforms &
+              interactive user experiences.
             </p>
           </div>
 
@@ -83,7 +85,9 @@ export default function Footer() {
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-zinc-400 gap-4">
           <p>© {currentYear} MD Fahim Prodhan. All rights reserved.</p>
           <div className="flex items-center gap-2">
-            <span>Designed & Engineered with React 19, GSAP & Tailwind CSS</span>
+            <span>
+              Designed & Engineered with React 19, GSAP & Tailwind CSS
+            </span>
           </div>
         </div>
       </div>
