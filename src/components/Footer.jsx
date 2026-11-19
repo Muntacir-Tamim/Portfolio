@@ -54,7 +54,7 @@ export default function Footer() {
           {/* Socials & Back to Top */}
           <div className="flex items-center gap-3">
             <a
-              href="https://github.com/Fahim-Prodhan"
+              href="https://github.com/Muntacir-Tamim"
               target="_blank"
               rel="noreferrer"
               className="p-2.5 rounded-full bg-white/5 border border-white/10 text-zinc-400 hover:text-white hover:bg-white/10 transition-colors"
@@ -83,7 +83,7 @@ export default function Footer() {
 
         {/* Bottom Credits */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-zinc-400 gap-4">
-          <p>© {currentYear} MD Fahim Prodhan. All rights reserved.</p>
+          <p>© {currentYear} Muntacir Tamim. All rights reserved.</p>
           <div className="flex items-center gap-2">
             <span>
               Designed & Engineered with React 19, GSAP & Tailwind CSS

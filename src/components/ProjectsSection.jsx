@@ -11,7 +11,8 @@ export default function ProjectsSection() {
       title: "Multi-Tenant SaaS Engine & Leads Hub",
       category: "saas",
       categoryLabel: "Multi-Tenant SaaS",
-      tagline: "High-scale multi-tenant client pipeline & lead management suite",
+      tagline:
+        "High-scale multi-tenant client pipeline & lead management suite",
       description:
         "Engineered a full-scale multi-tenant SaaS application that isolates tenant data, provides automated lead capture pipelines, supports real-time activity metrics, and handles high-volume CSV exports.",
       features: [
@@ -20,9 +21,16 @@ export default function ProjectsSection() {
         "Role-based permission matrix (Superadmin, Tenant Admin, Agent)",
         "Instant CSV export engine for data reporting and analysis",
       ],
-      tech: ["React 19", "Node.js", "Express", "MongoDB", "Multi-Tenant SaaS", "Tailwind CSS"],
-      github: "https://github.com/Fahim-Prodhan",
-      demo: "https://github.com/Fahim-Prodhan",
+      tech: [
+        "React 19",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Multi-Tenant SaaS",
+        "Tailwind CSS",
+      ],
+      github: "https://github.com/Muntacir-Tamim",
+      demo: "https://github.com/Muntacir-Tamim",
       accent: "from-cyan-500/20 to-blue-500/5",
       badgeColor: "bg-cyan-500/10 text-cyan-300 border-cyan-500/30",
     },
@@ -40,7 +48,14 @@ export default function ProjectsSection() {
         "Responsive UI built with React 19, Tailwind CSS, and DaisyUI",
         "Toast notification feedback system for seamless user interactions",
       ],
-      tech: ["React 19", "Recharts", "React Router", "Tailwind CSS", "DaisyUI", "REST APIs"],
+      tech: [
+        "React 19",
+        "Recharts",
+        "React Router",
+        "Tailwind CSS",
+        "DaisyUI",
+        "REST APIs",
+      ],
       github: "https://github.com/Fahim-Prodhan/study-flow",
       demo: "https://github.com/Fahim-Prodhan/study-flow",
       accent: "from-teal-500/20 to-emerald-500/5",
@@ -60,8 +75,15 @@ export default function ProjectsSection() {
         "Instant feedback notifications via React Hot Toast",
         "Clean, responsive interface optimized for desktop and mobile",
       ],
-      tech: ["React 19", "React Router", "Tailwind CSS", "React Hot Toast", "REST APIs"],
-      github: "https://github.com/Fahim-Prodhan/library-management-react-frontend",
+      tech: [
+        "React 19",
+        "React Router",
+        "Tailwind CSS",
+        "React Hot Toast",
+        "REST APIs",
+      ],
+      github:
+        "https://github.com/Fahim-Prodhan/library-management-react-frontend",
       demo: "https://github.com/Fahim-Prodhan/library-management-react-frontend",
       accent: "from-blue-500/20 to-indigo-500/5",
       badgeColor: "bg-blue-500/10 text-blue-300 border-blue-500/30",
@@ -80,8 +102,15 @@ export default function ProjectsSection() {
         "Sharp automation script for multi-device frame downsampling",
         "Modern dark-glass interface with Framer Motion transitions",
       ],
-      tech: ["React 19", "GSAP ScrollTrigger", "Lenis", "Motion", "Tailwind CSS", "Sharp"],
-      github: "https://github.com/Fahim-Prodhan",
+      tech: [
+        "React 19",
+        "GSAP ScrollTrigger",
+        "Lenis",
+        "Motion",
+        "Tailwind CSS",
+        "Sharp",
+      ],
+      github: "https://github.com/Muntacir-Tamim",
       demo: "#",
       accent: "from-purple-500/20 to-pink-500/5",
       badgeColor: "bg-purple-500/10 text-purple-300 border-purple-500/30",
@@ -89,12 +118,13 @@ export default function ProjectsSection() {
   ];
 
   const filteredProjects =
-    filter === "all"
-      ? projects
-      : projects.filter((p) => p.category === filter);
+    filter === "all" ? projects : projects.filter((p) => p.category === filter);
 
   return (
-    <section id="projects" className="py-24 bg-black relative border-t border-white/5">
+    <section
+      id="projects"
+      className="py-24 bg-black relative border-t border-white/5"
+    >
       {/* Background radial glow */}
       <div className="absolute top-1/3 right-0 w-96 h-96 bg-cyan-500/5 rounded-full blur-3xl pointer-events-none" />
 
@@ -106,10 +136,14 @@ export default function ProjectsSection() {
             Selected Portfolio
           </div>
           <h2 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">
-            Featured <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-teal-300">Projects</span>
+            Featured{" "}
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-teal-300">
+              Projects
+            </span>
           </h2>
           <p className="mt-4 text-base sm:text-lg text-zinc-400">
-            A showcase of production-ready SaaS architectures, interactive platforms, and modern web applications built by MD Fahim Prodhan.
+            A showcase of production-ready SaaS architectures, interactive
+            platforms, and modern web applications built by MD Fahim Prodhan.
           </p>
 
           {/* Filter Buttons */}
@@ -143,9 +177,13 @@ export default function ProjectsSection() {
               className="flex flex-col justify-between rounded-3xl bg-zinc-900/60 border border-white/10 overflow-hidden backdrop-blur-sm hover:border-cyan-500/40 hover:bg-zinc-900/90 transition-all duration-300 group shadow-2xl"
             >
               {/* Card Header & Preview Banner */}
-              <div className={`p-6 sm:p-8 bg-gradient-to-br ${project.accent} border-b border-white/5 relative`}>
+              <div
+                className={`p-6 sm:p-8 bg-gradient-to-br ${project.accent} border-b border-white/5 relative`}
+              >
                 <div className="flex flex-wrap items-center justify-between gap-2 mb-4">
-                  <span className={`text-xs font-semibold px-3 py-1 rounded-full border ${project.badgeColor}`}>
+                  <span
+                    className={`text-xs font-semibold px-3 py-1 rounded-full border ${project.badgeColor}`}
+                  >
                     {project.categoryLabel}
                   </span>
                   <div className="flex items-center gap-2">
@@ -191,7 +229,10 @@ export default function ProjectsSection() {
                       Key Capabilities:
                     </div>
                     {project.features.map((feat, fIdx) => (
-                      <div key={fIdx} className="flex items-start gap-2.5 text-xs sm:text-sm text-zinc-300">
+                      <div
+                        key={fIdx}
+                        className="flex items-start gap-2.5 text-xs sm:text-sm text-zinc-300"
+                      >
                         <Check className="w-4 h-4 text-cyan-400 shrink-0 mt-0.5" />
                         <span>{feat}</span>
                       </div>

@@ -7,8 +7,8 @@ const sequences = [
 ];
 
 const sizes = [
-  { suffix: "", width: 1280, quality: 72 },
-  { suffix: "-sm", width: 720, quality: 65 },
+  { suffix: "", width: 1920, quality: 85 },
+  { suffix: "-sm", width: 1080, quality: 78 },
 ];
 
 for (const { src, name } of sequences) {
@@ -23,8 +23,8 @@ for (const { src, name } of sequences) {
         sharp(`${src}/${file}`)
           .resize({ width })
           .webp({ quality })
-          .toFile(`${out}/frame_${String(i + 1).padStart(4, "0")}.webp`)
-      )
+          .toFile(`${out}/frame_${String(i + 1).padStart(4, "0")}.webp`),
+      ),
     );
     console.log(`${out}: ${files.length} frames`);
   }

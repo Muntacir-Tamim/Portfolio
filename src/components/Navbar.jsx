@@ -78,7 +78,7 @@ export default function Navbar() {
           {/* Action Buttons */}
           <div className="hidden md:flex items-center gap-3">
             <a
-              href="https://github.com/Fahim-Prodhan"
+              href="https://github.com/Muntacir-Tamim"
               target="_blank"
               rel="noreferrer"
               className="p-2 text-zinc-400 hover:text-white hover:bg-white/10 rounded-full transition-colors"
@@ -100,7 +100,7 @@ export default function Navbar() {
           {/* Mobile Menu Button */}
           <div className="md:hidden flex items-center gap-2">
             <a
-              href="https://github.com/Fahim-Prodhan"
+              href="https://github.com/Muntacir-Tamim"
               target="_blank"
               rel="noreferrer"
               className="p-2 text-zinc-400 hover:text-white"
@@ -144,13 +144,13 @@ export default function Navbar() {
               onClick={(e) => handleNavClick(e, "#contact")}
               className="w-full text-center py-2.5 bg-cyan-400 text-black font-semibold rounded-xl text-sm hover:bg-cyan-300 transition-colors"
             >
-              Contact Fahim
+              Contact MUNTACIR
             </a>
             <a
               href="mailto:fahimprodhan0@gmail.com"
               className="w-full text-center py-2 text-zinc-400 hover:text-white text-xs flex items-center justify-center gap-1.5"
             >
-              <Mail className="w-4 h-4" /> fahimprodhan0@gmail.com
+              <Mail className="w-4 h-4" /> muntacirtamim202162@gmail.com
             </a>
           </div>
         </div>

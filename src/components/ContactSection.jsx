@@ -13,7 +13,7 @@ export default function ContactSection() {
   const [submitted, setSubmitted] = useState(false);
   const [submitting, setSubmitting] = useState(false);
 
-  const email = "fahimprodhan0@gmail.com";
+  const email = "muntacirtamim202162@gmail.com";
 
   const handleCopyEmail = () => {
     navigator.clipboard.writeText(email);
@@ -121,7 +121,7 @@ export default function ContactSection() {
 
               {/* GitHub item */}
               <a
-                href="https://github.com/Fahim-Prodhan"
+                href="https://github.com/Muntacir-Tamim"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center justify-between p-4 rounded-2xl bg-zinc-900/50 border border-white/10 hover:border-cyan-500/30 transition-colors group"
@@ -135,7 +135,7 @@ export default function ContactSection() {
                       GitHub Profile
                     </div>
                     <div className="text-sm font-semibold text-white group-hover:text-cyan-300 transition-colors">
-                      github.com/Fahim-Prodhan
+                      github.com/Muntacir-Tamim
                     </div>
                   </div>
                 </div>
